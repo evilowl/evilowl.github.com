@@ -8,7 +8,7 @@
       <url>http://yoursite.com/2016/07/11/Lmbench/</url>
       <content type="html"><![CDATA[<p>今天安装<a href="http://www.bitmover.com/lmbench/" target="_blank" rel="external">lmbench</a>,编译时碰到错误。提示此时会报错：</p>
 <p>   make[2]: <strong><em> 没有规则可以创建“bk.ver”需要的目标“../SCCS/s.ChangeSet”。 停止。<br>   make[2]:正在离开目录 `/home/hero/lmbench3/src’<br>   make[1]: </em></strong> [lmbench] 错误 2<br>   make[1]:正在离开目录 `/home/hero/lmbench3/src’<br>   make: <em>*</em> [build] 错误 2</p>
-<p> ##解决方法<br> 在解压的lmbench3目录下</p>
+<h2 id="解决方法">解决方法</h2><p> 在解压的lmbench3目录下</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir SCCS</span><br><span class="line">$ touch ./SCSS/s.ChangeSet</span><br><span class="line">$ make</span><br></pre></td></tr></table></figure>
 ]]></content>
     </entry>
